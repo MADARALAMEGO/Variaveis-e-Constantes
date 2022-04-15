@@ -1,6 +1,6 @@
 package vetores;
 
-public class VetoresDeUmaDimensao {
+public class Vetores1D {
     public static void main(String[] args) {
         String[] cardapio = new String[] { "Calabresa", "Atum", "Queijo", "Presunto"};
         System.out.println("Escolha o sabor:");
