@@ -2,7 +2,7 @@ package metodos;
 
 import java.util.Scanner;
 
-public class Exercicio03Exemplo {
+public class ExemploExercicio03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
     Double numeroEsquerda = informeNumero(scanner);
@@ -58,5 +58,4 @@ public class Exercicio03Exemplo {
     static void imprimirTraco() {
         System.out.println("---------------------------------------");
     }
-}
 }
