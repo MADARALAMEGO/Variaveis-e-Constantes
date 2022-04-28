@@ -1,4 +1,4 @@
-package progamacao_orientada_a_objetos;
+package progamacao_orientada_a_objetos.primeira_classe;
 
 public class PrimeiraClasse {
     public static void main(String[] args) {
