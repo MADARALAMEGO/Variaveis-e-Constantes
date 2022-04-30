@@ -17,7 +17,7 @@ public class Exercicio01 {
             String tarefas = scanner.nextLine();
             linhas.add(tarefas);
         }
-            Path arquivo = Paths.get("C:\\Users\\Administrador\\Desktop\\arquivo.txt");
+            Path arquivo = Paths.get("C:\\Users\\Aluno\\Desktop\\arquivo.txt");
             Files.write(arquivo, linhas);
             scanner.close();
             System.out.println("Tarefas Anotadas.");
