@@ -1,4 +1,6 @@
-package orientacao_a_objetos_pt1.acessando_tributo_de_objetos.acessando_tributo_de_objetos.exercicio01;
+package orientacao_a_objetos_pt1.Exercicio01;
+
+import orientacao_a_objetos_pt1.Exercicio01.Cachorro;
 
 public class Petshop {
     public static void main(String[] args) {

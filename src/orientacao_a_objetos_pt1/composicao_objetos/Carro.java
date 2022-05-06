@@ -1,4 +1,4 @@
-package orientacao_a_objetos_pt1.acessando_tributo_de_objetos.acessando_tributo_de_objetos;
+package orientacao_a_objetos_pt1.composicao_objetos;
 
 public class Carro {
     String fabricante;
@@ -6,4 +6,5 @@ public class Carro {
     String cor;
     int anoDeFabricacao;
 
+    Proprietario dono;
 }
