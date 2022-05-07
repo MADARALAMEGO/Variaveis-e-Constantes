@@ -1,6 +1,4 @@
-package orientacao_a_objetos_pt1.AcessandoTributoDeObjeto;
-
-import orientacao_a_objetos_pt1.AcessandoTributoDeObjeto.Carro;
+package orientacao_a_objetos_pt1.acessando_tributo_de_objeto;
 
 public class Principal {
     public static void main(String[] args) {
