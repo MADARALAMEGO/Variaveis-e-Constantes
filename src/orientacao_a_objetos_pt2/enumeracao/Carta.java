@@ -1,6 +1,6 @@
-package orientacao_a_objetos_pt2.enumeracoes;
+package orientacao_a_objetos_pt2.enumeracao;
 
-public class Naipe {
+public class Carta {
     private int numero;
     private Naipe naipe;
     public Carta(int numero, Naipe naipe) {

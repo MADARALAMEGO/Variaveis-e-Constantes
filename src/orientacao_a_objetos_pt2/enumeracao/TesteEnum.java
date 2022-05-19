@@ -1,4 +1,4 @@
-package orientacao_a_objetos_pt2.enumeracoes;
+package orientacao_a_objetos_pt2.enumeracao;
 
 public class TesteEnum {
     public static void main(String[] args) {
