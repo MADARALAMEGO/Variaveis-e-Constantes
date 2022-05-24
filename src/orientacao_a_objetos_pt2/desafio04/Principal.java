@@ -10,16 +10,16 @@ public class Principal {
         atacadista.setNome("Triângulo Quadrado Atacadista");
         Cliente telecom = new Cliente();
         telecom.setNome("FoneNet Telecomunicações");
-        ContaPagar contaPagar1 = new ContaPagar();
+        ContaAPagar contaPagar1 = new ContaAPagar();
         contaPagar1.setDescricao("Aluguel da matriz");
         contaPagar1.setValor(1230d);
-        contaPagar1.setDataVencimento("10/05/2012");
+        contaPagar1.setDataDeVencimento("10/05/2012");
         contaPagar1.setFornecedor(imobiliaria);
-        ContaPagar contaPagar2 = new ContaPagar(mercado, "Compras do mês", 390d, "19/05/2012");
+        ContaAPagar contaPagar2 = new ContaAPagar(mercado, "Compras do mês", 390d, "19/05/2012");
         ContaReceber contaReceber1 = new ContaReceber();
         contaReceber1.setDescricao("Desenvolvimento de projeto de logística em Java");
         contaReceber1.setValor(89500d);
-        contaReceber1.setDataVencimento("23/05/2012");
+        contaReceber1.setDataDeVencimento("23/05/2012");
         contaReceber1.setCliente(atacadista);
         ContaReceber contaReceber2 = new ContaReceber(telecom, "Manutenção em sistema de conta online",
                 53200d, "13/05/2012");

@@ -1,9 +1,9 @@
 package orientacao_a_objetos_pt2.desafio04;
 
-import orientacao_a_objetos_pt2.desafio03.Fornecedor;
-import orientacao_a_objetos_pt2.desafio03.SituacaoConta;
+public class ContaAPagar extends Conta {
 
-public class ContaPagar extends Conta{
+    public ContaAPagar() {
+    }
     public ContaAPagar(Fornecedor fornecedor, String descricao, Double valor, String dataDeVencimento) {
         this();
         this.fornecedor = fornecedor;
@@ -21,4 +21,6 @@ public class ContaPagar extends Conta{
             this.situacaoConta = SituacaoConta.PAGA;
         }
     }
+
+
 }

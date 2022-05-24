@@ -57,4 +57,5 @@ public class Conta {
     public SituacaoConta getSituacaoConta() {
         return situacaoConta;
     }
+
 }
