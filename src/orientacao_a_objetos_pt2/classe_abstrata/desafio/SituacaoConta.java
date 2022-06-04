@@ -1,4 +1,7 @@
 package orientacao_a_objetos_pt2.classe_abstrata.desafio;
 
-public class SituacaoConta {
+public enum SituacaoConta {
+    PENDENTE,
+    PAGA,
+    CANCELADA
 }

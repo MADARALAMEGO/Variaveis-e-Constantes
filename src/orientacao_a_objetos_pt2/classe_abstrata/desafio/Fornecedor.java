@@ -1,4 +1,4 @@
 package orientacao_a_objetos_pt2.classe_abstrata.desafio;
 
-public class Fornecedor {
+public class Fornecedor extends Pessoa{
 }
