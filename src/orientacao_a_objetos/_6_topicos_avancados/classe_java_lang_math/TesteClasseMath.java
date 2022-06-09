@@ -1,4 +1,4 @@
-package orientacao_a_objetos._6_topicos_avancados;
+package orientacao_a_objetos._6_topicos_avancados.classe_java_lang_math;
 
 import static java.lang.Math.PI;
 import static java.lang.Math.max;
@@ -28,6 +28,15 @@ public class TesteClasseMath {
         System.out.println("Menor Inteiro: " + Math.floor(n));
         System.out.println("Maior Inteiro: " + Math.ceil(n));
         System.out.println("Arredondamento: " + Math.round(n));
+
+        //Trigonometria
+        System.out.println("Seno: " + Math.sin(40));
+
+        //Números randomicos
+        double numeroAleatorio = Math.random() * 100;
+        System.out.println(numeroAleatorio);
+
+
 
     }
 }
