@@ -7,6 +7,7 @@ public class Principal {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Quantos Jogos deseja fazer?");
         byte numeroDeJogos = scanner.nextByte();
+        System.out.println("------------------------------------------");
         if (numeroDeJogos == 1) {
         for(int i = 1; i <= 6; i++) {
             double numeroAleatorio = Math.random() * 60;
